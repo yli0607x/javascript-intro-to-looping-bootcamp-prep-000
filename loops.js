@@ -10,6 +10,12 @@ array.push("I am 1 strange loop.")
 return array
 }
 
+function whileLoop(number) {
+  while (number >0) {
+    console.log(--number);
+  }
+  return "done"
+}
 
 
 
